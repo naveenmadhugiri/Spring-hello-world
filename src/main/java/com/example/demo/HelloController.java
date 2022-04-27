@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot! Sonar pipeline added...";
+		return "Greetings from Spring Boot! Spring into Action...";
 	}
 
 }

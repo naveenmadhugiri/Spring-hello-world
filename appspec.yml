@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/demo-0.0.1-SNAPSHOT.jar
+  - source: /target/Spring-Hello-World.jar
     destination: /home/ec2-user/server
 hooks:
   BeforeInstall:

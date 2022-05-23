@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo yum -y install java-1.8.0-openjdk
+sudo apt-get -y install java-1.8.0-openjdk

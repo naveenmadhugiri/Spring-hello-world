@@ -2,17 +2,13 @@ version: 0.0
 os: linux
 files:
   - source: /target/Spring-Hello-World-0.0.1-SNAPSHOT.jar
-    destination: /home/ec2-user/server
+    destination: /home/ubuntu/server
 hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies.sh
-      timeout: 300
-      runas: root
-  AfterInstall:
+ AfterInstall:
     - location: scripts/app_start.sh
       timeout: 300
       runas: root
-  ApplicationStop:
+ ApplicationStop:
     - location: scripts/app_stop.sh
       timeout: 300
       runas: root

@@ -11,7 +11,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() throws UnknownHostException {
-		return "Greetings from Spring Boot! Jump into Action...!! Server IP -> " + InetAddress.getLocalHost().getHostAddress();
+		return "Greetings from Spring Boot! Test counter 1 ...!! Server IP -> " + InetAddress.getLocalHost().getHostAddress();
 	}
 
 }
